@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Subnetwise — Privacy Policy</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #fbfafe;
+    --surface: #f4f2f7;
+    --fg: #1c1b1f;
+    --fg-dim: #49454f;
+    --accent: #2563eb;
+    --border: #ecead0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1c1b1f;
+      --surface: #2b2930;
+      --fg: #e6e1e5;
+      --fg-dim: #938f99;
+      --accent: #a8c7fa;
+      --border: #36343b;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                 "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px 96px;
+  }
+  h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 8px;
+  }
+  h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 40px 0 12px;
+  }
+  .effective {
+    color: var(--fg-dim);
+    font-size: 14px;
+    margin: 0 0 32px;
+  }
+  p { margin: 0 0 16px; }
+  ul {
+    margin: 0 0 16px;
+    padding-left: 24px;
+  }
+  li { margin-bottom: 8px; }
+  a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  a:hover { text-decoration: underline; }
+  code {
+    font-family: "SF Mono", Menlo, Consolas, "Roboto Mono", monospace;
+    font-size: 14px;
+    background: var(--surface);
+    padding: 1px 6px;
+    border-radius: 4px;
+  }
+  .callout {
+    background: var(--surface);
+    border-left: 4px solid var(--accent);
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 24px 0;
+  }
+  .callout p:last-child { margin-bottom: 0; }
+  footer {
+    margin-top: 64px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--fg-dim);
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Subnetwise — Privacy Policy</h1>
+  <p class="effective">Effective 2026-05-19. Applies to Subnetwise version 1.0 and later.</p>
+
+  <div class="callout">
+    <p><strong>Short version:</strong> Subnetwise collects nothing, sends nothing,
+    and stores nothing outside your device. It has no internet permission, so it
+    cannot phone home even if it wanted to.</p>
+  </div>
+
+  <h2>What Subnetwise is</h2>
+  <p>Subnetwise is an Android subnet calculator. It runs entirely on your device.
+  All calculations happen locally. Nothing is transmitted off the device because
+  the app cannot transmit anything off the device.</p>
+
+  <h2>Data we collect</h2>
+  <p>None.</p>
+  <p>Subnetwise does not collect, transmit, sell, share, or store any personal
+  data, usage data, diagnostic data, or device identifiers. There is no account
+  to create, no login, no profile, no telemetry.</p>
+
+  <h2>Permissions</h2>
+  <p>Subnetwise requests <strong>zero runtime permissions</strong>. The
+  <code>AndroidManifest.xml</code> does not declare
+  <code>android.permission.INTERNET</code>, so the operating system itself
+  prevents the app from making any network connection.</p>
+  <p>You can verify this on your device: long-press the Subnetwise icon, open
+  App info, and check the Permissions section. It will be empty.</p>
+
+  <h2>Third parties</h2>
+  <p>Subnetwise includes no third-party analytics SDKs, no advertising SDKs, no
+  crash-reporting SDKs, and no social-login SDKs. It does not embed trackers
+  of any kind. The only third party involved in your use of the app is Google
+  Play itself, which handles the purchase and installation. Google Play's
+  privacy practices are governed by <a
+  href="https://policies.google.com/privacy">Google's privacy policy</a>, not
+  this one.</p>
+
+  <h2>Data stored on your device</h2>
+  <p>Subnetwise stores the following locally on your device using Android's
+  DataStore, never leaving the device:</p>
+  <ul>
+    <li>Your saved (bookmarked) subnets and their labels</li>
+    <li>Your theme preference (System / Light / Dark)</li>
+    <li>Which Learn lessons you have read</li>
+  </ul>
+  <p>This data is removed when you uninstall the app or use Android's "Clear
+  data" option in App info.</p>
+
+  <h2>Children's privacy</h2>
+  <p>Subnetwise does not collect any data from anyone, including children. It
+  is suitable for all ages.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy ever changes, the updated version will be published at this
+  same URL with a new effective date at the top. Since the app collects no
+  data, changes are expected to be rare and minor (clarifications only).</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy or about Subnetwise can be sent to
+  <a href="mailto:denizuc1994@gmail.com">denizuc1994@gmail.com</a>.</p>
+
+  <footer>
+    Subnetwise is made in the Netherlands. This policy is plain English on
+    purpose — privacy that needs a lawyer to read isn't really privacy.
+  </footer>
+</main>
+</body>
+</html>
